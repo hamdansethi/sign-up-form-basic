@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="img">
+        <div class="logo">
+            <img id="logo" src="odin-lined.png" alt="">
+            <p>Hamdan</p>
+        </div>
+        
+    </div>
+    <div id="form">
+        <form action="#" method="post">
+            <div class="box">
+                <div>
+                    <label for="first-name">First Name</label>
+                    <input type="text" required>
+                </div>
+                <div>
+                    <label for="last-name">Last Name</label>
+                    <input type="text" required>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" required>
+                </div>
+                <div>
+                    <label for="number">Phone Number</label>
+                    <input type="text" required>
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{6,12}$" required>
+                </div>
+                <div>
+                    <label for="password">Confirm Password</label>
+                    <input type="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{6,12}$" required>
+                </div>
+            </div>
+            <button type="submit">Create Account</button>
+            <p class="log-in">Already have any account? <a href="">Log in</a></p>
+        </form>
+    </div>
+</body>
+</html>
